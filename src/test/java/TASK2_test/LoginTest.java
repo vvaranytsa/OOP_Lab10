@@ -1,4 +1,4 @@
-package TASK2;
+package TASK2_test;
 
 import adapter.TASK2.Client;
 import adapter.TASK2.Login;
@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class TASK2_TEST {
+public class LoginTest {
     @Test
     public void testLoginFacebook() {
         Login login = new Login();

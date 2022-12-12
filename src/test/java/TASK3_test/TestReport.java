@@ -1,4 +1,4 @@
-package TASK3;
+package TASK3_test;
 
 import adapter.TASK3.Authorization;
 import adapter.TASK3.DataBASE;
@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
-public class TASK3_TEST {
+public class TestReport {
     private static DataBASE database;
 
     @BeforeAll
