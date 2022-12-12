@@ -1,3 +1,4 @@
+package TASK3;
 
 import adapter.TASK3.Authorization;
 import adapter.TASK3.DataBASE;
