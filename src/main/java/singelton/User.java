@@ -13,6 +13,6 @@ public class User {
     private int age;
     public void save() throws SQLException{
         Connection connection = Connection.getInstance();
-        connection.executeQuery("user VALUES('"+ name +"','"+ email +"', "+ age +")");
+        connection.executeQuery("INSERT INTO user VALUES('"+ name +"','"+ email +"', "+ age +")");
     }
 }
